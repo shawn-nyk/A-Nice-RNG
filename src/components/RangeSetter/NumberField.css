@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/tik5zef.css");
+
+#number-field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.number-field {
+  background-color: #042c44;
+  color: #f9b978;
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  border-radius: 20px;
+  border-style: none;
+  outline: none;
+  width: 225px;
+  height: 70px;
+  resize: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: auto;
+  margin: 5px 30px;
+}
+
+.number-field::-webkit-outer-spin-button,
+.number-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.limit-text {
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 4px;
+  font-size: 17px;
+  color: #eadcc5;
+}
