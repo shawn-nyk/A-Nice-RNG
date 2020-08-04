@@ -1,0 +1,26 @@
+@import url("https://use.typekit.net/tik5zef.css");
+
+#header-container {
+  text-align: center;
+  padding: 12px;
+  background-color: #8d173c;
+  margin: -8px;
+}
+
+#title {
+  font-family: sybarite, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin-bottom: -11px;
+  color: #f9b235;
+}
+
+#desc {
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 12px;
+  color: #eadcc5;
+}
