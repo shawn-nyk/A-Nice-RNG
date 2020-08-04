@@ -14,8 +14,19 @@ function App() {
     const upperLimit = parseInt(
       document.getElementById("upper-limit-number").value
     );
-    const range = upperLimit - lowerLimit;
-    setResult(Math.round(Math.random() * range) + lowerLimit);
+    if (lowerLimit > upperLimit) {
+      alert(
+        "Please ensure that the lower limit is less than or equal to the upper limit"
+      );
+    } else {
+      const range = upperLimit - lowerLimit;
+      const result = Math.round(Math.random() * range) + lowerLimit;
+      if (Number.isNaN(result)) {
+        alert("Please input valid numbers");
+      } else {
+        setResult(result);
+      }
+    }
   };
 
   return (

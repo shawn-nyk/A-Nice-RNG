@@ -2,7 +2,7 @@ import React from "react";
 import "./NumberField.css";
 
 const onKeyDownHandler = (event) => {
-  if (event.keyCode === 69 || event.keyCode === 187) {
+  if (event.keyCode === 69 || event.keyCode === 187 || event.keyCode === 190) {
     event.preventDefault();
   }
 };
