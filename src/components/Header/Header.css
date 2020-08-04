@@ -2,7 +2,7 @@
 
 #header-container {
   text-align: center;
-  padding: 7px;
+  padding: 1px;
   background-color: #8d173c;
   margin: -8px;
 }
@@ -11,8 +11,8 @@
   font-family: sybarite, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 50px;
-  margin-bottom: -15px;
+  font-size: 45px;
+  margin-bottom: -14px;
   color: #f9b235;
 }
 
@@ -20,7 +20,6 @@
   font-family: basic-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 21px;
-  padding-bottom: 6px;
+  font-size: 18px;
   color: #eadcc5;
 }

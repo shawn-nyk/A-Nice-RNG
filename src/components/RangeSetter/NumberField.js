@@ -2,7 +2,7 @@ import React from "react";
 import "./NumberField.css";
 
 const onKeyDownHandler = (event) => {
-  if (event.keyCode === 69 || event.keyCode === 187 || event.keyCode === 189) {
+  if (event.keyCode === 69 || event.keyCode === 187) {
     event.preventDefault();
   }
 };
@@ -12,6 +12,7 @@ const numberField = (props) => {
     <span id="number-field-container">
       <input
         className="number-field"
+        id={props.id}
         type="number"
         onKeyDown={onKeyDownHandler}
       />
