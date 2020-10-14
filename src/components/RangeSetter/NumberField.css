@@ -37,3 +37,11 @@
   font-size: 17px;
   color: #eadcc5;
 }
+
+@media only screen and (max-width: 750px) {
+  /* For mobile: */
+  .number-field {
+    font-size: 35px;
+    width: 125px;
+  }
+}
